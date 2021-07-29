@@ -1,0 +1,25 @@
+{
+  "tenantId": "jk",
+  "moduleName": "BPA",
+  "NocTypeMapping": [
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "ALL",
+      "nocTriggerState": "DOC_VERIFICATION_INPROGRESS",
+      "nocTypes": [
+        {
+          "type": "FIRE_NOC",
+          "required": true,
+          "documentType": "NOC.FIRE"
+        },
+        {
+        "type": "REVENUE_NOC",
+        "required": true,
+        "documentType":"NOC.REVENUE"
+        }
+        
+      ]
+    }
+  ]
+}

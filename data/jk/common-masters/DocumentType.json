@@ -1,0 +1,207 @@
+{
+    "tenantId": "jk",
+    "moduleName": "common-masters",
+    "DocumentType": [
+        {
+            "code": "APPL.OWNERSHIPPROOF.OWNERSHIP",
+            "active": true
+        },        
+        {
+            "code": "APPL.UNDERTAKING.UNDERTAKING",
+            "active": true
+        },
+        {
+            "code": "APPL.OTHERS.OTHERS",
+            "active": true
+        },
+        {
+            "code": "BPD.SP.SP",
+            "active": true
+        },
+        {
+            "code": "BPD.BP.BP",
+            "active": true
+        },
+        {
+            "code": "BPD.FP.FP",
+            "active": true
+        },
+        {
+            "code": "BPD.PCP.PCP",
+            "active": true
+        },
+        {
+            "code": "BPD.LP.LP",
+            "active": true
+        },
+        {
+            "code": "BPD.GS.GS",
+            "active": true
+        },
+        {
+            "code": "BPD.PP.PP",
+            "active": true
+        },        
+        {
+            "code": "BPD.OD.OD",
+            "active": true
+        },
+        {
+            "code": "BPD.DP.DP",
+            "active": true
+        },
+        {
+            "code": "NOC.FIRE.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.AGRICULTURE.LANDUSE",
+            "active": true
+        },
+        {
+            "code": "NOC.AGRICULTURE_WATERBODY.FTL",
+            "active": true
+        },
+        {
+            "code": "FI.FIR.FIR",
+            "active": true
+        },
+        {
+            "code": "FI.SINS.SINS",
+            "active": true
+        },
+        {
+            "code": "FI.SISS.SISS",
+            "active": true
+        },
+        {
+            "code": "FI.SIES.SIES",
+            "active": true
+        },
+        {
+            "code": "FI.SIWS.SIWS",
+            "active": true
+        },
+        {
+            "code": "FI.SIBS.SIBS",
+            "active": true
+        },
+        {
+            "code": "FI.SIEB.SIEB",
+            "active": true
+        },
+        {
+            "code": "FI.SIFS.SIFS",
+            "active": true
+        },
+        {
+            "code": "FI.SIPB.SIPB",
+            "active": true
+        },
+        {
+            "code": "FI.SIRI.SIRI",
+            "active": true
+        },
+        {
+            "code": "FI.SISB.SISB",
+            "active": true
+        },
+        {
+            "code": "NOC.AIRPORT.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.AIRPORT.AUTHORITY.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.FIRE.SERVICES.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.IRRIGATION.DEPARTMENT.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.MONUMENTS.AUTHORITY.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "NOC.POLLUTION.CONTROL.BOARD.CERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "APPL.BUILDING_DIAGRAM.SECTION_PLAN",
+            "active": true
+        },
+        {
+            "code": "APPL.BUILDING_DIAGRAM.ELEVATION_PLAN",
+            "active": true
+        },
+        {
+            "code": "APPL.BUILDING_DIAGRAM.FLOOR_PLAN",
+            "active": true
+        },
+        {
+            "code": "APPL.LOCALBODY.MUNCIPAL_APPROVAL",
+            "active": true
+        },
+        {
+            "code": "APPL.LOCALBODY.PANCHAYAT_APPROVAL",
+            "active": true
+        },
+        {
+            "code": "APPL.LOCALBODY.DTCP_APPROVAL",
+            "active": true
+        },
+        {
+            "code": "APPL.SSSC.SIKKIMCERTIFICATE",
+            "active": true
+        },
+        {
+            "code": "APPL.SLP.LANDPARCHA",
+            "active": true
+        },
+        {
+            "code": "APPL.SCM.CADASTRALMAP",
+            "active": true
+        },
+        {
+            "code": "APPL.SSD.SALEDEED",
+            "active": true
+        },
+         {
+            "code": "APPL.SSR.STABILITYREPORT",
+            "active": true
+        },
+        {
+            "code": "NOC.SNB.NEIGHBOUR",
+            "active": true
+        },
+        {
+            "code": "NOC.REVENUE.REVENUE",
+            "active": true
+        },
+        {
+            "code": "NOC.NAZOOL.NAZOOL",
+            "active": true
+        },
+        {
+            "code": "NOC.PHE.PHE",
+            "active": true
+        },
+        {
+            "code": "NOC.ELECTRIC.ELECTRIC",
+            "active": true
+        },
+        {
+            "code": "NOC.SEWERAGE.SEWERAGE",
+            "active": true
+        },
+        {
+            "code": "NOC.CHIEFTOWN.CHIEFTOWN",
+            "active": true
+        }
+
+    ]
+}

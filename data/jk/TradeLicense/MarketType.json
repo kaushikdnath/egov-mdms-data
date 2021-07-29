@@ -1,0 +1,18 @@
+{
+  "tenantId": "jk",
+  "moduleName": "TradeLicense",
+  "MarketType": [
+        {
+            "code": "MUNICIPALMARKET",
+            "active": true
+        },
+        {
+            "code": "PRIVATEMARKET",
+            "active": true
+        },
+        {
+            "code": "UNKNOWNMARKET",
+            "active": true
+        }
+    ]
+}

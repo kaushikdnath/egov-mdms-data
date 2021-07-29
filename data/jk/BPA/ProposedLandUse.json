@@ -1,0 +1,11 @@
+{
+  "tenantId": "jk",
+  "moduleName": "BPA",
+  "ProposedLandUse": [
+    {
+      "name": "Residential",
+      "code": "RESIDENTIAL",
+      "active": true
+    }
+  ]
+}

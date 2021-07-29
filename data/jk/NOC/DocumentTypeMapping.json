@@ -1,0 +1,34 @@
+{
+   "tenantId":"jk",
+   "moduleName":"NOC",
+   "DocumentTypeMapping":[
+      
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INITIATED",
+                  "nocType": "FIRE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.FIRE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INITIATED",
+                  "nocType": "REVENUE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.REVENUE",
+               "required": true
+            }
+         ]
+      }
+      
+   ]
+}

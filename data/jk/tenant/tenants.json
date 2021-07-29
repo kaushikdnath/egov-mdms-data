@@ -1,0 +1,105 @@
+{
+  "tenantId": "jk",
+  "moduleName": "tenant",
+  "tenants": [
+    {
+      "code": "jk",
+      "name": "JK",
+      "description": "Jammu & Kashmir",
+      "logoId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/jammuandkashmir/jammuandkashmir.png",
+      "imageId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/jammuandkashmir/jammuandkashmir.png",
+      "domainUrl": "http://www.jmcjammuandkashmir.in/",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "jmc.jk@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "10.00 AM - 5.00 PM"
+      },
+      "city": {
+        "name": "Jammu",
+        "localName": null,
+        "districtCode": null,
+        "districtName": null,
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 88.6138,
+        "latitude": 27.3314,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1",
+        "ddrName": "Jammu-MC"
+      },
+      "address": "Municipal Corporation Office,Near Deorali stand, JAMMU, JammuAndKashmir - ",
+      "contactNumber": "03592 - 280290",
+      "pdfHeader": "JK_PDF_HEADER",
+      "pdfContactDetails": "JK_CONTACT_DETAILS"
+    },
+    {
+      "code": "jk.jammu",
+      "name": "jammu",
+      "description": "Jammu",
+      "logoId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/jammu/jammu.png",
+      "imageId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/jammu/jammu.png",
+      "cloudLogoId":"https://git.cloud.gov.in/mahaboob.basha/jmclogo/-/raw/master/jmclogo.png?inline=true",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "OfficeTimings": {
+        "Mon - Sat": "10.00 AM - 5.00 PM"
+      },
+      "city": {
+        "name": "jammu",
+        "localName": "jammu",
+        "districtCode": "255",
+        "districtName": "JAMMU DISTRICT",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 88.6138,
+        "latitude": 27.3314,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1",
+        "regionCode": null,
+        "municipalityName": "Jammu Municipal Corporation"
+      },
+      "address": "Jammu Municipal corporation, Jammu",
+      "ulbPortalLink": null,
+      "domainUrl": "http://www.jmcjammuandkashmir.in/",
+      "emailId": "jmc.jk@gmail.com",
+      "contactNumber": 9856042688
+    },
+	{
+      "code": "jk.srinagar",
+      "name": "srinagar",
+      "description": "Srinagar",
+      "logoId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/srinagar/srinagar.png",
+      "imageId": "https://raw.githubusercontent.com/alwayssuraj/jammuandkashmir_logos/master/srinagar/srinagar.png",
+      "cloudLogoId":"https://git.cloud.gov.in/mahaboob.basha/smclogo/-/raw/master/smclogo.png?inline=true",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "OfficeTimings": {
+        "Mon - Sat": "10.00 AM - 5.00 PM"
+      },
+      "city": {
+        "name": "srinagar",
+        "localName": "Srinagar",
+        "districtCode": "255",
+        "districtName": "SRINAGAR DISTRICT",
+        "regionName": null,
+        "ulbGrade": "Municipal Corporation",
+        "longitude": 88.6138,
+        "latitude": 27.3314,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1",
+        "regionCode": null,
+        "municipalityName": "Srinagar Municipal Corporation"
+      },
+      "address": "Srinagar Municipal corporation, Srinagar",
+      "ulbPortalLink": null,
+      "contactNumber": 9856042688
+    }
+  ]
+}

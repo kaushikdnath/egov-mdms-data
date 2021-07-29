@@ -1,0 +1,21 @@
+{
+  "tenantId": "jk",
+  "moduleName": "PropertyTax",
+  "Penalty": [
+    {
+      "rate": 10,
+      "minAmount": null,
+      "flatAmount": null,
+      "fromFY": "2014-15",
+      "startingDay": "01/04/2015"
+    },
+    {
+      "rate": 0,
+      "minAmount": null,
+      "flatAmount": null,
+      "fromFY": "2020-21",
+      "startingDay": "31/07/2020"
+    }
+    
+  ]
+}

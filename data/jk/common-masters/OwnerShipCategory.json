@@ -1,0 +1,14 @@
+{
+  "tenantId": "jk",
+  "moduleName": "common-masters",
+  "OwnerShipCategory": [
+        {
+            "code": "INDIVIDUAL.SINGLEOWNER",
+            "active": true
+        },
+        {
+            "code": "INDIVIDUAL.MULTIPLEOWNERS",
+            "active": true
+        }
+    ]
+}

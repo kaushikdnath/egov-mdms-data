@@ -1,0 +1,44 @@
+{
+  "tenantId": "jk",
+  "moduleName": "BPA",
+  "NocTypeMapping": [
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "ALL",
+      "nocTriggerState": "DOC_VERIFICATION_INPROGRESS",
+      "nocTypes": [
+        {
+          "type": "REVENUE_NOC",
+          "required": true,
+          "documentType": "NOC.REVENUE"
+        },
+        {
+          "type": "NAZOOL_NOC",
+          "required": true,
+          "documentType": "NOC.NAZOOL"
+        },
+        {
+          "type": "PHE_NOC",
+          "required": true,
+          "documentType": "NOC.PHE"
+        },
+        {
+          "type": "ELECTRIC_NOC",
+          "required": true,
+          "documentType": "NOC.ELECTRIC"
+        },
+        {
+          "type": "SEWERAGE_NOC",
+          "required": true,
+          "documentType": "NOC.SEWERAGE"
+        },
+        {
+          "type": "CHIEFTOWN_NOC",
+          "required": true,
+          "documentType": "NOC.CHIEFTOWN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "tenantId": "jk",
+  "moduleName": "NOC",
+  "NocType": [
+     {
+       "code": "FIRE_NOC",
+       "isActive": true,
+       "offlineWF":"FIRE_NOC_OFFLINE",
+       "onlineWF":"FIRE_NOC_SRV",
+       "mode":"online",
+       "NocUserRole":"FIRE_NOC_APPROVER"
+    },
+     {
+       "code": "REVENUE_NOC",
+       "isActive": true,
+       "offlineWF":"REVENUE_NOC_OFFLINE",
+       "onlineWF":"REVENUE_NOC_SRV",
+       "mode":"online",
+       "NocUserRole":"COMM_REVENUE"
+    }
+  ]
+}

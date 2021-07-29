@@ -1,0 +1,14 @@
+{
+  "tenantId": "jk",
+  "moduleName": "TradeLicense",
+  "OccupancyType": [
+    {
+      "code": "OWNED",
+      "active": true
+    },
+    {
+      "code": "RENTED",
+      "active": true
+    }
+  ]
+}

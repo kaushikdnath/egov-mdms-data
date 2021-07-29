@@ -1,0 +1,522 @@
+{
+    "tenantId": "jk.jammu",
+    "moduleName": "egov-location",
+    "TenantBoundary": [
+      {
+        "hierarchyType": {
+          "code": "REVENUE",
+          "name": "REVENUE"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Jammu",
+          "localname": "Jammu",
+          "longitude": null,
+          "latitude": null,
+          "label": "City",
+          "code": "jk.jammu",
+          "children":[
+            {
+              "id": 1,
+              "boundaryNum": 1,
+              "name": "Arnia",
+              "localname": "Arnia",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6862",
+              "children": [
+              ]
+            },
+            {
+              "id": 2,
+              "boundaryNum": 2,
+              "name": "Akhnoor",
+              "localname": "Akhnoor",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "56",
+              "children": [
+              ]
+            },
+            {
+              "id": 3,
+              "boundaryNum": 1,
+              "name": "Bhalwal",
+              "localname": "Bhalwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "57",
+              "children": [
+              ]
+            },
+            {
+              "id": 4,
+              "boundaryNum": 1,
+              "name": "Bhalwal Brahmana",
+              "localname": "Bhalwal Brahmana",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6863",
+              "children": [
+              ]
+            },
+            {
+              "id": 5,
+              "boundaryNum": 1,
+              "name": "Bishnah",
+              "localname": "Bishnah",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "58",
+              "children": [
+              ]
+            },
+            {
+              "id": 6,
+              "boundaryNum": 1,
+              "name": "Chowki Choura",
+              "localname": "Chowki Choura",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6865",
+              "children": [
+              ]
+            },
+            {
+              "id": 7,
+              "boundaryNum": 1,
+              "name": "Dansal",
+              "localname": "Dansal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "59",
+              "children": [
+              ]
+            },
+            {
+              "id": 9,
+              "boundaryNum": 1,
+              "name": "Kharah Bhalli",
+              "localname": "Kharah Bali",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6979",
+              "children": [
+              ]
+            },
+            {
+              "id": 10,
+              "boundaryNum": 1,
+              "name": "Khour",
+              "localname": "Khour",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "60",
+              "children": [
+              ]
+            },
+            {
+              "id": 11,
+              "boundaryNum": 1,
+              "name": "Maira Mandrian",
+              "localname": "Bhalwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6864",
+              "children": [
+              ]
+            },
+            {
+              "id": 12,
+              "boundaryNum": 1,
+              "name": "Mandal Phallain",
+              "localname": "Mandal Phallain",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6868",
+              "children": [
+              ]
+            },
+            {
+              "id": 13,
+              "boundaryNum": 1,
+              "name": "Marh",
+              "localname": "Marh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "61",
+              "children": [
+              ]
+            },
+            {
+              "id": 14,
+              "boundaryNum": 1,
+              "name": "Mathwar",
+              "localname": "Mathwar",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6981",
+              "children": [
+              ]
+            },
+            {
+              "id": 15,
+              "boundaryNum": 1,
+              "name": "Mihran Sahib",
+              "localname": "Mihran Sahib",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "7037",
+              "children": [
+              ]
+            },
+            {
+              "id": 16,
+              "boundaryNum": 1,
+              "name": "Nagrota",
+              "localname": "Nagrota",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6867",
+              "children": [
+              ]
+            },
+            {
+              "id": 17,
+              "boundaryNum": 1,
+              "name": "Pragwal",
+              "localname": "Pragwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6980",
+              "children": [
+              ]
+            },
+            {
+              "id": 18,
+              "boundaryNum": 1,
+              "name": "R.S.Pura",
+              "localname": "R.S.Pura",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "63",
+              "children": [
+              ]
+            },
+            {
+              "id": 19,
+              "boundaryNum": 1,
+              "name": "Samwan",
+              "localname": "Samwan",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "64",
+              "children": [
+              ]
+            },
+            {
+              "id": 20,
+              "boundaryNum": 1,
+              "name": "Satwari",
+              "localname": "Satwari",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "65",
+              "children": [
+              ]
+            },
+            {
+              "id": 21,
+              "boundaryNum": 1,
+              "name": "Suchetgarh",
+              "localname": "Suchetgarh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "66",
+              "children": [
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "hierarchyType": {
+          "code": "ADMIN",
+          "name": "ADMIN"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Jammu",
+          "localname": "Jammu",
+          "longitude": null,
+          "latitude": null,
+          "label": "City",
+          "code": "jk.jammu",
+          "children":[
+            {
+              "id": 1,
+              "boundaryNum": 1,
+              "name": "Arnia",
+              "localname": "Arnia",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6862",
+              "children": [
+              ]
+            },
+            {
+              "id": 2,
+              "boundaryNum": 2,
+              "name": "Akhnoor",
+              "localname": "Akhnoor",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "56",
+              "children": [
+              ]
+            },
+            {
+              "id": 3,
+              "boundaryNum": 1,
+              "name": "Bhalwal",
+              "localname": "Bhalwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "57",
+              "children": [
+              ]
+            },
+            {
+              "id": 4,
+              "boundaryNum": 1,
+              "name": "Bhalwal Brahmana",
+              "localname": "Bhalwal Brahmana",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6863",
+              "children": [
+              ]
+            },
+            {
+              "id": 5,
+              "boundaryNum": 1,
+              "name": "Bishnah",
+              "localname": "Bishnah",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "58",
+              "children": [
+              ]
+            },
+            {
+              "id": 6,
+              "boundaryNum": 1,
+              "name": "Chowki Choura",
+              "localname": "Chowki Choura",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6865",
+              "children": [
+              ]
+            },
+            {
+              "id": 7,
+              "boundaryNum": 1,
+              "name": "Dansal",
+              "localname": "Dansal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "59",
+              "children": [
+              ]
+            },
+            {
+              "id": 9,
+              "boundaryNum": 1,
+              "name": "Kharah Bhalli",
+              "localname": "Kharah Bali",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6979",
+              "children": [
+              ]
+            },
+            {
+              "id": 10,
+              "boundaryNum": 1,
+              "name": "Khour",
+              "localname": "Khour",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "60",
+              "children": [
+              ]
+            },
+            {
+              "id": 11,
+              "boundaryNum": 1,
+              "name": "Maira Mandrian",
+              "localname": "Bhalwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6864",
+              "children": [
+              ]
+            },
+            {
+              "id": 12,
+              "boundaryNum": 1,
+              "name": "Mandal Phallain",
+              "localname": "Mandal Phallain",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6868",
+              "children": [
+              ]
+            },
+            {
+              "id": 13,
+              "boundaryNum": 1,
+              "name": "Marh",
+              "localname": "Marh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "61",
+              "children": [
+              ]
+            },
+            {
+              "id": 14,
+              "boundaryNum": 1,
+              "name": "Mathwar",
+              "localname": "Mathwar",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6981",
+              "children": [
+              ]
+            },
+            {
+              "id": 15,
+              "boundaryNum": 1,
+              "name": "Mihran Sahib",
+              "localname": "Mihran Sahib",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "7037",
+              "children": [
+              ]
+            },
+            {
+              "id": 16,
+              "boundaryNum": 1,
+              "name": "Nagrota",
+              "localname": "Nagrota",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6867",
+              "children": [
+              ]
+            },
+            {
+              "id": 17,
+              "boundaryNum": 1,
+              "name": "Pragwal",
+              "localname": "Pragwal",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6980",
+              "children": [
+              ]
+            },
+            {
+              "id": 18,
+              "boundaryNum": 1,
+              "name": "R.S.Pura",
+              "localname": "R.S.Pura",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "63",
+              "children": [
+              ]
+            },
+            {
+              "id": 19,
+              "boundaryNum": 1,
+              "name": "Samwan",
+              "localname": "Samwan",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6866",
+              "children": [
+              ]
+            },
+            {
+              "id": 20,
+              "boundaryNum": 1,
+              "name": "Satwari",
+              "localname": "Satwari",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "65",
+              "children": [
+              ]
+            },
+            {
+              "id": 21,
+              "boundaryNum": 1,
+              "name": "Suchetgarh",
+              "localname": "Suchetgarh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Locality",
+              "code": "6982",
+              "children": [
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

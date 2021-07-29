@@ -1,0 +1,22 @@
+{
+  "tenantId": "jk",
+  "moduleName": "TradeLicense",
+  "RelationType": [
+    {
+      "code": "PROPRIETOR",
+      "active": true
+    },
+    {
+      "code": "PARTNER",
+      "active": true
+    },
+    {
+      "code": "DIRECTOR",
+      "active": true
+    },
+    {
+      "code": "AUTHORIZEDSIGNATORY",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+    "tenantId": "jk.srinagar",
+    "moduleName": "egov-location",
+    "TenantBoundary": [
+      {
+        "hierarchyType": {
+          "code": "REVENUE",
+          "name": "REVENUE"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Srinagar",
+          "localname": "Srinagar",
+          "longitude": null,
+          "latitude": null,
+          "label": "District",
+          "code": "jk.srinagar",
+          "children":[
+            {
+              "id": 1,
+              "boundaryNum": 1,
+              "name": "Eidgah",
+              "localname": "Eidgah",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "7086",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 2,
+              "boundaryNum": 1,
+              "name": "Harwan Rural Area",
+              "localname": "Harwan Rural Area",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "6875",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 3,
+              "boundaryNum": 1,
+              "name": "Khanmoh",
+              "localname": "Khanmoh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "6876",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 4,
+              "boundaryNum": 1,
+              "name": "Qamarwari",
+              "localname": "Qamarwari",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "7087",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 5,
+              "boundaryNum": 1,
+              "name": "Srinagar",
+              "localname": "Srinagar",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "122",
+              "children": [
+                
+			  ]
+			}
+          ]
+        }
+      },
+      {
+        "hierarchyType": {
+          "code": "ADMIN",
+          "name": "ADMIN"
+        },
+        "boundary": {
+          "id": 1,
+          "boundaryNum": 1,
+          "name": "Srinagar",
+          "localname": "Srinagar",
+          "longitude": null,
+          "latitude": null,
+          "label": "District",
+          "code": "jk.srinagar",
+          "children":[
+            {
+              "id": 1,
+              "boundaryNum": 1,
+              "name": "Eidgah",
+              "localname": "Eidgah",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "7086",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 2,
+              "boundaryNum": 1,
+              "name": "Harwan Rural Area",
+              "localname": "Harwan Rural Area",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "6875",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 3,
+              "boundaryNum": 1,
+              "name": "Khanmoh",
+              "localname": "Khanmoh",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "6876",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 4,
+              "boundaryNum": 1,
+              "name": "Qamarwari",
+              "localname": "Qamarwari",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "7087",
+              "children": [
+                
+			  ]
+			},
+			{
+              "id": 5,
+              "boundaryNum": 1,
+              "name": "Srinagar",
+              "localname": "Srinagar",
+              "longitude": null,
+              "latitude": null,
+              "label": "Block",
+              "code": "122",
+              "children": [
+                
+			  ]
+			}
+          ]
+        }
+      }
+    ]
+  }

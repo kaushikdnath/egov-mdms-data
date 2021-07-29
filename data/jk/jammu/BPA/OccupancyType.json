@@ -1,0 +1,94 @@
+{
+  "tenantId": "jk",
+  "moduleName": "BPA",
+  "OccupancyType": [
+    {
+      "name": "Residential",
+      "code": "R",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 1,
+      "description": "Residential",
+      "colorCode": 2
+    },
+    {
+      "name": "Commercial",
+      "code": "C",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 2,
+      "description": "Commercial",
+      "colorCode": 5
+    },
+    {
+      "name": "Industrial",
+      "code": "I",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 3,
+      "description": "Industrial",
+      "colorCode": 214
+    },
+    {
+      "name": "Public-Semi Public",
+      "code": "P",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 5,
+      "description": "Public-Semi Public",
+      "colorCode": 1
+    },
+    {
+      "name": "Institutional",
+      "code": "S",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 5,
+      "description": "Institutional",
+      "colorCode": 12
+    },
+    {
+      "name": "Public Utility",
+      "code": "U",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 6,
+      "description": "Public Utility",
+      "colorCode": 20
+    },
+    {
+      "name": "Religious",
+      "code": "G",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 7,
+      "description": "Religious",
+      "colorCode": 210
+    },
+    {
+      "name": "Transportation",
+      "code": "T",
+      "active": true,
+      "maxCoverage": 65,
+      "minFar": 3,
+      "maxFar": 4,
+      "orderNumber": 8,
+      "description": "Transportation",
+      "colorCode": 0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "tenantId": "jk",
+  "moduleName": "NOC",
+  "NocType": [
+    {
+      "code": "REVENUE_NOC",
+      "isActive": true,
+      "offlineWF": "REVENUE_NOC_OFFLINE",
+      "onlineWF": "REVENUE_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "COMM_REVENUE",
+      "isMandatory": true
+    },
+    {
+      "code": "NAZOOL_NOC",
+      "isActive": true,
+      "offlineWF": "NAZOOL_NOC_OFFLINE",
+      "onlineWF": "NAZOOL_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "COMM_NAZOOL",
+      "isMandatory": true
+    },
+    {
+      "code": "PHE_NOC",
+      "isActive": true,
+      "offlineWF": "PHE_NOC_OFFLINE",
+      "onlineWF": "PHE_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "PHE_NOC_APPROVER",
+      "isMandatory": false
+    },
+    {
+      "code": "ELECTRIC_NOC",
+      "isActive": true,
+      "offlineWF": "ELECTRIC_NOC_OFFLINE",
+      "onlineWF": "ELECTRIC_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "ELECTRIC_NOC_APPROVER",
+      "isMandatory": false
+    },
+    {
+      "code": "SEWERAGE_NOC",
+      "isActive": true,
+      "offlineWF": "SEWERAGE_NOC_OFFLINE",
+      "onlineWF": "SEWERAGE_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "SEWERAGE_NOC_APPROVER",
+      "isMandatory": false
+    },
+    {
+      "code": "CHIEFTOWN_NOC",
+      "isActive": true,
+      "offlineWF": "CHIEFTOWN_NOC_OFFLINE",
+      "onlineWF": "CHIEFTOWN_NOC_SRV",
+      "mode": "online",
+      "NocUserRole": "CHIEFTOWN_NOC_APPROVER",
+      "isMandatory": false
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "tenantId": "jk",
+  "moduleName": "BPA",
+  "CalculationType": [
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "HIGH",
+      "feeType": "ApplicationFee",
+      "amount": 100
+    },
+    {
+      "applicationType": "ALL",
+      "serviceType": "ALL",
+      "riskType": "LOW",
+      "feeType": "ApplicationFee",
+      "amount": 110
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "LOW",
+      "feeType": "ApplicationFee",
+      "amount": 200
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "LOW",
+      "feeType": "Low_ApplicationFee",
+      "amount": 100
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "LOW",
+      "feeType": "Low_SanctionFee",
+      "amount": 500,
+      "skRSPSQMT": {
+        "GP": 3,
+        "NP": 4,
+        "MC": 6,
+        "MC1": 10,
+        "MC2": 12
+      },
+      "labourCess": 1,
+      "scrutinyFee": 1000,
+      "noOfBlocksForDevelopmentCharges": 1,
+      "developmentCharges": 5000,
+      "shelterFund": {
+        "from": 500,
+        "to": 4000,
+        "percentageOfBuiltUpArea": 10,
+        "MC2": 750,
+        "MC1": 500,
+        "NP": 250,
+        "GP": 250,
+        "MC": 250
+      }
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "NEW_CONSTRUCTION",
+      "riskType": "LOW",
+      "feeType": "SanctionFee",
+      "amount": 500
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "LOW",
+      "feeType": "SanctionFee",
+      "amount": 500
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "HIGH",
+      "feeType": "SanctionFee",
+      "amount": 500,
+      "skRSPSQMT": {
+        "GP": 6,
+        "NP": 8,
+        "MC": 12,
+        "MC1": 20,
+        "MC2": 25
+      },
+      "labourCess": 1,
+      "noOfBlocksForDevelopmentCharges": 1,
+      "developmentCharges": 5000,
+      "shelterFund": {
+        "from": 500,
+        "to": 4000,
+        "percentageOfBuiltUpArea": 10,
+        "MC2": 750,
+        "MC1": 500,
+        "NP": 250,
+        "GP": 250,
+        "MC": 250
+      }
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "MEDIUM",
+      "feeType": "SanctionFee",
+      "amount": 500,
+      "skRSPSQMT": {
+        "GP": 5,
+        "NP": 6,
+        "MC": 8,
+        "MC1": 15,
+        "MC2": 18
+      },
+      "labourCess": 1,
+      "scrutinyFee": 0,
+      "noOfBlocksForDevelopmentCharges": 1,
+      "developmentCharges": 5000,
+      "shelterFund": {
+        "from": 500,
+        "to": 4000,
+        "percentageOfBuiltUpArea": 10,
+        "MC2": 750,
+        "MC1": 500,
+        "NP": 250,
+        "GP": 250,
+        "MC": 250
+      }
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "ALL",
+      "feeType": "FloorCharges",
+      "calsiLogic": [
+        {
+          "calculationType": "number",
+          "blockParamPath": "edcrDetail[0].planDetail.blocks.*.building",
+          "occupancyParamPath": "edcrDetail[0].planDetail.virtualBuilding.mostRestrictiveFarHelper.type.code",
+          "PSQRMTR": [
+            {
+              "R": {
+                "GF": 9.8425,
+                "AF": 6.5617
+              }
+            },
+            {
+              "C": {
+                "BF": 16.4042,
+                "P-BF": 82.021,
+                "GF": 82.021,
+                "AF": 65.6168
+              }
+            },
+            {
+              "P": {
+                "BF": 32.8084,
+                "GF": 32.8084,
+                "AF": 32.8084
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "ALL",
+      "feeType": "UserCharges",
+      "amount": 1200
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "ALL",
+      "feeType": "SepticTankSecurity",
+      "amount": 2000
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "ALL",
+      "feeType": "MulbaSecurity",
+      "calsiLogic": [
+        {
+          "occupancyParamPath": "edcrDetail[0].planDetail.virtualBuilding.mostRestrictiveFarHelper.type.code",
+          "R": 3000,
+          "C": 6000
+        }
+      ]
+    },
+    {
+      "applicationType": "BUILDING_PLAN_SCRUTINY",
+      "serviceType": "ALL",
+      "riskType": "ALL",
+      "feeType": "LabourCess",
+      "calsiLogic": [
+        {
+          "totalFloorAreaParamPath": "edcrDetail[0].planDetail.blocks.*.building.totalFloorArea",
+          "occupancyParamPath": "edcrDetail[0].planDetail.virtualBuilding.mostRestrictiveFarHelper.type.code",
+          "totalConstructionCostParamPath": "edcrDetail[0].planDetail.planInfoProperties.TOTAL_CONSTRUCTION_COST",
+          "R": 3937.008,
+          "C": 5905.512
+        }
+      ]
+    }
+  ]
+}

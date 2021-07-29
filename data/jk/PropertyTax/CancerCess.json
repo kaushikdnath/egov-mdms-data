@@ -1,0 +1,13 @@
+{
+ "tenantId": "jk",
+ "moduleName": "PropertyTax",
+ "CancerCess": [
+   {
+     "rate": 2,
+     "minAmount": null,
+     "flatAmount": null,
+     "maxAmount" : null,
+     "fromFY": "2020-21"
+   }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+    "tenantId": "jk",
+    "moduleName": "BPA",
+    "DocTypeMapping": [
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "LOW",
+            "WFState": "INITIATED",
+            "docTypes": [
+                {
+                    "code": "APPL.SSSC",
+                    "required": true
+                },
+                {
+                    "code": "APPL.SLP",
+                    "required": true
+                },
+                {
+                    "code": "APPL.SSD",
+                    "required": false
+                },
+                {
+                    "code": "APPL.SCM",
+                    "required": true
+                },
+                {
+                    "code": "APPL.SSR",
+                    "required": false
+                },
+                {
+                    "code": "BPD.SP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.FP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.SCP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.EP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.SECP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.PP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.RP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.BP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.OD",
+                    "required": false
+                },
+                {
+                    "code": "BPD.DP",
+                    "required": false
+                },
+                {
+                    "code": "NOC.SNB",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INPROGRESS",
+            "docTypes": [
+                {
+                    "code": "APPL.OWNERSHIPPROOF",
+                    "required": true
+                },
+                {
+                    "code": "APPL.UNDERTAKING",
+                    "required": true
+                },
+                {
+                    "code": "APPL.OTHERS",
+                    "required": false
+                },
+                {
+                    "code": "BPD.SP",
+                    "required": true
+                },                
+                {
+                    "code": "BPD.BP",
+                    "required": true
+                },              
+                {
+                    "code": "BPD.PCP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.LP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.GS",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INITIATED",
+            "docTypes": [
+                {
+                    "code": "APPL.OWNERSHIPPROOF",
+                    "required": true
+                },
+                {
+                    "code": "APPL.UNDERTAKING",
+                    "required": true
+                },
+                {
+                    "code": "APPL.OTHERS",
+                    "required": false
+                },
+                {
+                    "code": "BPD.SP",
+                    "required": true
+                },                
+                {
+                    "code": "BPD.BP",
+                    "required": true
+                },              
+                {
+                    "code": "BPD.PCP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.LP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.GS",
+                    "required": true
+                }
+            ]
+        },
+        
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "MEDIUM",
+            "WFState": "INITIATED",
+            "docTypes": [
+                {
+                    "code": "APPL.IDENTITYPROOF",
+                    "required": true
+                },
+                {
+                    "code": "APPL.ADDRESSPROOF",
+                    "required": true
+                },
+                {
+                    "code": "APPL.LTR",
+                    "required": true
+                },
+                {
+                    "code": "APPL.TDP",
+                    "required": true
+                },
+                {
+                    "code": "APPL.LAC",
+                    "required": false
+                },
+                {
+                    "code": "APPL.SSC",
+                    "required": false
+                },
+                {
+                    "code": "APPL.LSVS",
+                    "required": false
+                },
+                {
+                    "code": "APPL.TECHNICAL",
+                    "required": true
+                },
+                {
+                    "code": "APPL.DECLARATION",
+                    "required": true
+                },
+                {
+                    "code": "APPL.PC",
+                    "required": false
+                },
+                {
+                    "code": "APPL.LD",
+                    "required": false
+                },
+                {
+                    "code": "APPL.OD",
+                    "required": false
+                },
+                {
+                    "code": "BPD.SP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.FP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.SCP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.EP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.SECP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.PP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.RP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.BP",
+                    "required": false
+                },
+                {
+                    "code": "BPD.OD",
+                    "required": false
+                },
+                {
+                    "code": "BPD.DP",
+                    "required": false
+                },
+                {
+                    "code": "NOC.FIRE",
+                    "required": false
+                },
+                {
+                    "code": "NOC.AIRPORT",
+                    "required": false
+                },
+                {
+                    "code": "NOC.IRRIGATION",
+                    "required": false
+                },
+                {
+                    "code": "NOC.MONUMENTS",
+                    "required": false
+                },
+                {
+                    "code": "NOC.POLLUTION",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "LOW",
+            "WFState": "DOC_VERIFICATION_PENDING",
+            "docTypes": [
+                {
+                    "code": "APPL.BUILDING_DIAGRAM",
+                    "required": false
+                },
+                {
+                    "code": "APPL.SP",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "LOW",
+            "WFState": "NOC_VERIFICATION_PENDING",
+            "docTypes": [
+                {
+                    "code": "NOC.NEIGHBOUR",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "DOC_VERIFICATION_PENDING",
+            "docTypes": [
+                {
+                    "code": "APPL.OWNERSHIPPROOF",
+                    "required": true
+                },
+                {
+                    "code": "APPL.UNDERTAKING",
+                    "required": true
+                },
+                {
+                    "code": "APPL.OTHERS",
+                    "required": false
+                },
+                {
+                    "code": "BPD.SP",
+                    "required": true
+                },                
+                {
+                    "code": "BPD.BP",
+                    "required": true
+                },              
+                {
+                    "code": "BPD.PCP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.LP",
+                    "required": true
+                },
+                {
+                    "code": "BPD.GS",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "NOC_VERIFICATION_PENDING",
+            "docTypes": [
+                
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "MEDIUM",
+            "WFState": "DOC_VERIFICATION_PENDING",
+            "docTypes": [
+                {
+                    "code": "APPL.BUILDING_DIAGRAM",
+                    "required": false
+                },
+                {
+                    "code": "APPL.LOCALBODY",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "MEDIUM",
+            "WFState": "NOC_VERIFICATION_PENDING",
+            "docTypes": [
+                {
+                    "code": "NOC.FIRE",
+                    "required": false
+                },
+                {
+                    "code": "NOC.AIRPORT",
+                    "required": false
+                },
+                {
+                    "code": "NOC.IRRIGATION",
+                    "required": false
+                },
+                {
+                    "code": "NOC.MONUMENTS",
+                    "required": false
+                },
+                {
+                    "code": "NOC.POLLUTION",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}

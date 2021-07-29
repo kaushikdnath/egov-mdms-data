@@ -1,0 +1,32 @@
+{
+  "tenantId": "jk",
+  "moduleName": "common-masters",
+  "uiCommonPay": [
+    {
+      "code": "BPA.NC_APP_FEE",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "applicationreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/egov-bpa/search"
+        }
+      ]
+    },
+    {
+      "code": "BPA.NC_SAN_FEE",
+      "headerBandLabel": "PAYMENT_COMMON_CONSUMER_CODE",
+      "receiptKey": "consolidatedreceipt",
+      "billKey": "consolidatedbill",
+      "buttons": [
+        {
+          "label": "COMMON_BUTTON_HOME",
+          "citizenUrl": "/bpastakeholder-citizen/home",
+          "employeeUrl": "/egov-bpa/search"
+        }
+      ]
+    }
+  ]
+}

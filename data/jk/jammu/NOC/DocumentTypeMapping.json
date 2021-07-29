@@ -1,0 +1,140 @@
+{
+   "tenantId":"jk",
+   "moduleName":"NOC",
+   "DocumentTypeMapping":[
+      {
+         "applicationType": "PROVISIONAL",
+         "nocType": "FIRE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.FIRE",
+               "required": true
+            }
+         ]
+      },
+      
+      {
+         "applicationType": "NEW",
+         "nocType": "REVENUE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.REVENUE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "NEW",
+         "nocType": "NAZOOL_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.NAZOOL",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "NEW",
+         "nocType": "PHE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.PHE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "NEW",
+         "nocType": "ELECTRIC_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.ELECTRIC",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "NEW",
+         "nocType": "SEWERAGE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.SEWERAGE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "NEW",
+         "nocType": "CHIEFTOWN_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.CHIEFTOWN",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INPROGRESS",
+                  "nocType": "FIRE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.FIRE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INITIATED",
+                  "nocType": "FIRE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.FIRE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "RENEW",
+         "nocType": "FIRE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.FIRE",
+               "required": false
+            }
+         ]
+      },
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INPROGRESS",
+                  "nocType": "REVENUE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.REVENUE",
+               "required": true
+            }
+         ]
+      },
+      {
+         "applicationType": "BUILDING_PLAN_SCRUTINY",
+            "ServiceType": "NEW_CONSTRUCTION",
+            "RiskType": "HIGH",
+            "WFState": "INITIATED",
+                  "nocType": "REVENUE_NOC",
+         "docTypes":[
+            {
+               "documentType": "NOC.REVENUE",
+               "required": true
+            }
+         ]
+      }
+      
+   ]
+}

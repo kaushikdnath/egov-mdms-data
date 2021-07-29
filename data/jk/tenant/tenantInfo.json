@@ -1,0 +1,26 @@
+{
+  "tenantId": "jk",
+  "moduleName": "tenant",
+  "tenantInfo": [
+	{
+		"code": "jk.jammu",
+		"districtCode": "JAMMU DISTRICT",
+		"population": "2841062",
+		"malePopulation": "1,84,497",
+		"femalePopultion": "1,273,565",
+		"workingPopulation": "",
+		"literacyRate": "",
+		"languagesSpoken": ["HI","EN"]
+	},
+	{
+		"code": "jk.srinagar",
+		"districtCode": "SRINAGAR DISTRICT",
+		"population": "2841062",
+		"malePopulation": "1,84,497",
+		"femalePopultion": "1,273,565",
+		"workingPopulation": "",
+		"literacyRate": "",
+		"languagesSpoken": ["HI","EN"]
+	}
+  ]
+}

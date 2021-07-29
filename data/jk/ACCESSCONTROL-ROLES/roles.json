@@ -1,0 +1,145 @@
+{
+  "tenantId": "jk",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Citizen who can raise complaint"
+    },
+    {
+      "code": "EMPLOYEE",
+      "name": "Employee",
+      "description": "Default role for all employees"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "Super User",
+      "description": "System Administrator. Can change all master data and has access to all the system screens."
+    },
+    {
+      "code": "CEMP",
+      "name": "Counter Employee",
+      "description": "Employee at the counter who performs assessment on behalf of citizen"
+    },
+    {
+      "code": "STADMIN",
+      "name": "State Administrator",
+      "description": "Admin role that as access over a state"
+    },
+    {
+      "code": "BPA_ARCHITECT",
+      "name": "BPA Architect",
+      "description": "BPA Architect"
+    },
+    {
+      "code": "BPA_ENGINEER",
+      "name": "BPA Engineer",
+      "description": "BPA Engineer"
+    },
+    {
+      "code": "BPA_BUILDER",
+      "name": "BPA Builder",
+      "description": "BPA Builder"
+    },
+    {
+      "code": "BPAREG_APPROVER",
+      "name": "BPAREG Approver",
+      "description": "BPA Stakeholder workflow Approver"
+    },
+    {
+      "code": "BPAREG_DOC_VERIFIER",
+      "name": "BPAREG doc verifier",
+      "description": "BPA Stakeholder workflow document verifier"
+    },
+    {
+      "code": "BPA_APPROVER",
+      "name": "BPA Services Approver",
+      "description": "BPA Services workflow Approver"
+    },
+    {
+      "code": "BPA_VERIFIER",
+      "name": "BPA Services verifier",
+      "description": "BPA Services workflow document & field inspection verifier"
+    },
+    {
+      "code": "BPA_FIELD_INSPECTOR",
+      "name": "BPA Field Inspector",
+      "description": "BPA Service field inspector"
+    },
+    {
+      "code": "BPA_NOC_VERIFIER",
+      "name": "BPA NOC Verifier",
+      "description": "BPA Service NOC verifier"
+    },
+    {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS ADMIN",
+      "description": "HRMS Administrator which can create new employees"
+    },
+    {
+      "code": "BPA_MEET",
+      "name": "BPA Meeting Convenor",
+      "description": "This user will update the BPA Meeting Output"
+    },
+    {
+      "code": "FIRE_NOC_APPROVER",
+      "name": "Fire Noc Department Approver",
+      "description": "Fire Noc application approver"
+    },
+    {
+      "code": "NOC_CEMP",
+      "name": "NoC counter employee",
+      "description": "Fire NOC Counter Employee"
+    },
+    {
+      "code": "NOC_DOC_VERIFIER",
+      "name": "NoC Doc Verifier",
+      "description": "Fire NOC document verifier"
+    },
+    {
+      "code": "NOC_FIELD_INSPECTOR",
+      "name": "NoC Field Inpector",
+      "description": "Fire NOC  Field Inpector"
+    },
+    {
+      "code": "NOC_APPROVER",
+      "name": "NoC counter Approver",
+      "description": "Fire NOC Approver"
+    },
+    {
+      "code": "COMM_REVENUE",
+      "name": "Commissioner Revenue Approver",
+      "description": "Commissioner Revenue Approver"
+    },
+
+ {
+      "code": "COMM_NAZOOL",
+      "name": "Commissioner Nazool Approver",
+      "description": "Fire Noc application approver"
+    },
+
+ {
+      "code": "PHE_NOC_APPROVER",
+      "name": "PHE Department Approver",
+      "description": "PHE NOC application approver"
+    },
+
+ {
+      "code": "ELECTRIC_NOC_APPROVER",
+      "name": "Electric Noc Department Approver",
+      "description": "Electric Noc application approver"
+    },
+
+ {
+      "code": "SEWERAGE_NOC_APPROVER",
+      "name": "Sewerage Noc Department Approver",
+      "description": "Sewerage Noc application approver"
+    },
+ {
+      "code": "CHIEFTOWN_NOC_APPROVER",
+      "name": "Chief Town Approver",
+      "description": "Chief Town Noc application approver"
+    }
+  ]
+}

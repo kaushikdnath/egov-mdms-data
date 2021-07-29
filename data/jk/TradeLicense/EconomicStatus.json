@@ -1,0 +1,18 @@
+{
+  "tenantId": "jk",
+  "moduleName": "TradeLicense",
+  "EconomicStatus": [
+        {
+            "code": "BPL",
+            "active": true
+        },
+        {
+            "code": "TAXPAYER",
+            "active": true
+        },
+        {
+            "code": "NONEOFTHEABOVE",
+            "active": true
+        }
+    ]
+}
