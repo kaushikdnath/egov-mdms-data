@@ -1026,19 +1026,19 @@
     },
     "NocTypeMapping": {
       "masterName": "NocTypeMapping",
-      "isStateLevel": true,
+      "isStateLevel": false,
       "uniqueKeys": []
     }
   },
   "NOC":{
     "DocumentTypeMapping":{
       "masterName": "DocumentTypeMapping",
-      "isStateLevel": true,
+      "isStateLevel": false,
       "uniqueKeys": []
     },
      "NocType":{
       "masterName": "NocType",
-      "isStateLevel": true,
+      "isStateLevel": false,
       "uniqueKeys": [
        "$.code"
       ]
