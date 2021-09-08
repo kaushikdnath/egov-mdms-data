@@ -25,7 +25,7 @@
          "docTypes":[
             {
                "documentType": "NOC.REVENUE",
-               "required": true
+               "required": false
             }
          ]
       }
