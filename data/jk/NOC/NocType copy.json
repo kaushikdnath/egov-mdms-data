@@ -2,6 +2,6 @@
   "tenantId": "jk",
   "moduleName": "NOC",
   "NocType": [
-     "has","data"
+     "has","data","test"
   ]
 }
